@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="hbase">
+    <output-path>/usr/my-program/my-hadoop-jars</output-path>
+    <root id="archive" name="hbase.jar">
+      <element id="module-output" name="Hbase" />
+    </root>
+  </artifact>
+</component>
