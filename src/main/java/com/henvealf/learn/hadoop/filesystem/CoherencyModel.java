@@ -99,5 +99,4 @@ public class CoherencyModel {
     // 那在应用程序运行时，怎样才是能被接受的。
     // 合适值能够在你的应用程序运行完 hflush 或者 hsync 后测量得到。
 
-
 }

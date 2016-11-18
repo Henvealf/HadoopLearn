@@ -11,19 +11,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../../../henvealfSoftware/hive-1.2.1/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../../../../henvealfSoftware/hive-1.2.1/lib" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../../../../henvealfSoftware/hive-1.2.1/lib" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../../../../henvealfSoftware/hive-1.2.1/lib" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="hadoop-2.5.2" level="application" />
     <orderEntry type="library" name="hive-1.2.1" level="application" />
     <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />

@@ -12,7 +12,6 @@ import java.io.IOException;
  */
 public class SortMapper extends Mapper<LongWritable, Text, IntPair, IntWritable>{
 
-
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
 

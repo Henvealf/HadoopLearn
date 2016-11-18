@@ -14,6 +14,7 @@ import org.apache.hadoop.util.ToolRunner;
  */
 public class SortJob extends Configured implements Tool{
 
+
     @Override
     public int run(String[] strings) throws Exception {
         if(strings.length != 2) {
