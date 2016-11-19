@@ -29,7 +29,7 @@ public class FindEqualUrlReducer extends Reducer<Text, IntWritable, Text, NullWr
         boolean meetOne = false;
         boolean meetTow = false;
         for(IntWritable whichFile : values) {
-            System.out.println("key: " + key + "\t value: " + whichFile.toString());
+            //System.out.println("key: " + key + "\t value: " + whichFile.toString());
             if (whichFile.get() == 1) {
                 // url1Set.add(key.toString());
                 meetOne = true;
@@ -38,6 +38,7 @@ public class FindEqualUrlReducer extends Reducer<Text, IntWritable, Text, NullWr
                 meetTow = true;
             }
             if(meetOne && meetTow){
+                System.out.println("key: " + key + "\t value: " + whichFile.toString());
                 context.write(new Text(key), NullWritable.get());
                 break;
             }

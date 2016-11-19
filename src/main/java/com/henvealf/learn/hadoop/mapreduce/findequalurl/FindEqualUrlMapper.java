@@ -30,10 +30,10 @@ public class FindEqualUrlMapper  extends Mapper<LongWritable, Text,  Text, IntWr
     protected void map( LongWritable key, Text value , Context context) throws IOException, InterruptedException {
         //
         if(fileName.contains("url1")) {
-            System.out.println("value: " + value + "     \t1");
+            //System.out.println("value: " + value + "     \t1");
             context.write(new Text(value.toString().trim()), new IntWritable(1));
         } else {
-            System.out.println("value: " + value + "     \t2");
+            //System.out.println("value: " + value + "     \t2");
             context.write(new  Text(value.toString().trim()), new IntWritable(2));
         }
     }

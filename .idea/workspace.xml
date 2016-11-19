@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b272ee99-43f0-4480-b4ec-520475079e0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlJob.class" afterPath="$PROJECT_DIR$/target/classes/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlJob.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlReducer.class" afterPath="$PROJECT_DIR$/target/classes/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlReducer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/henvealf/learn/hadoop/test/CreateData.class" afterPath="$PROJECT_DIR$/target/test-classes/com/henvealf/learn/hadoop/test/CreateData.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/ValueHashPartitioner.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlJob.java" afterPath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlJob.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlReducer.java" afterPath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlReducer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java" afterPath="$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java" />
     </list>
     <ignored path="HadoopLearn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindEqualUrlMapper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FindEqualUrlMapper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="395">
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,21 +52,9 @@
       <file leaf-file-name="LocalJobRunner.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.5.2.jar!/org/apache/hadoop/mapred/LocalJobRunner.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7620">
-              <caret line="467" column="0" selection-start-line="467" selection-start-column="0" selection-end-line="467" selection-end-column="0" />
+            <state relative-caret-position="441">
+              <caret line="485" column="9" selection-start-line="485" selection-start-column="9" selection-end-line="485" selection-end-column="9" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ValueHashPartitioner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/ValueHashPartitioner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +62,8 @@
       <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="200">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -107,8 +92,8 @@
       <file leaf-file-name="FindEqualUrlJob.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="364">
+              <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,10 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindEqualUrlReducer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindEqualUrlReducer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
+            <state relative-caret-position="329">
               <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -216,12 +201,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopComputer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/TestJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequlesurl/package-info.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/ValueHashPartitioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlJob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java" />
       </list>
     </option>
   </component>
@@ -1011,7 +996,7 @@
       <workItem from="1479221185715" duration="33000" />
       <workItem from="1479258932377" duration="14309000" />
       <workItem from="1479453810296" duration="23906000" />
-      <workItem from="1479517296463" duration="1164000" />
+      <workItem from="1479517296463" duration="1981000" />
     </task>
     <servers />
   </component>
@@ -1048,7 +1033,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123135000" />
+    <option name="totallyTimeSpent" value="123952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="21" width="1366" height="747" extended-state="6" />
@@ -1063,12 +1048,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3868066" sideWeight="0.54978037" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19139466" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10534125" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15300146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1080,7 +1066,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1418,42 +1403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.5.2.jar!/org/apache/hadoop/mapred/LocalJobRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7620">
-          <caret line="467" column="0" selection-start-line="467" selection-start-column="0" selection-end-line="467" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/ValueHashPartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1464,20 +1413,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="200">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/ValueHashPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.5.2.jar!/org/apache/hadoop/mapred/LocalJobRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="485" column="9" selection-start-line="485" selection-start-column="9" selection-end-line="485" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlReducer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="364">
+          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -40,7 +40,6 @@ public class FindEqualUrlJob extends Configured implements Tool{
         FileOutputFormat.setOutputPath(job, new Path(strings[2]));
 
         job.setMapperClass(FindEqualUrlMapper.class);
-        // job.setPartitionerClass(ValueHashPartitioner.class);
         job.setReducerClass(FindEqualUrlReducer.class);
 
         job.setMapOutputKeyClass(Text.class);
