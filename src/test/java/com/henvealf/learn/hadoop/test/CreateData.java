@@ -14,16 +14,19 @@ public class CreateData {
 
     @Test
     public void create_find_equals_url_data() throws IOException {
-        FileWriter writer = new FileWriter("/usr/my-program/process-data/url2.dt");
+
         Random r = new Random(new Date().getTime());
-        for(int i = 0; i < 300000; i ++) {
-            String str = "www.henvealf.com/" + r.nextInt(1000000);
-            if(i < 299999)
-                str += "\n";
-            writer.write(str);
-            writer.flush();
+        for (int j = 1; j <=2 ; j++) {
+            FileWriter writer = new FileWriter("/usr/my-program/process-data/url"+ j +".dt");
+            for(int i = 0; i < 300000; i ++) {
+                String str = "www.henvealf.com/" + r.nextInt(1000000);
+                if(i < 299999)
+                    str += "\n";
+                writer.write(str);
+                writer.flush();
+            }
+            writer.close();
         }
-        writer.close();
     }
 
 }

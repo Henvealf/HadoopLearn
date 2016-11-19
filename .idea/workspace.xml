@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b272ee99-43f0-4480-b4ec-520475079e0e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/ValueHashPartitioner.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlJob.java" afterPath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlJob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlReducer.java" afterPath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlReducer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java" afterPath="$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java" />
     </list>
     <ignored path="HadoopLearn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +33,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindEqualUrlMapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindEqualUrlMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
@@ -62,8 +58,8 @@
       <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="220">
+              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -101,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateData.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateData.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="380">
+              <caret line="19" column="84" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,12 +197,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopComputer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/TestJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequlesurl/package-info.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/ValueHashPartitioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java" />
       </list>
     </option>
   </component>
@@ -996,7 +992,7 @@
       <workItem from="1479221185715" duration="33000" />
       <workItem from="1479258932377" duration="14309000" />
       <workItem from="1479453810296" duration="23906000" />
-      <workItem from="1479517296463" duration="1981000" />
+      <workItem from="1479517296463" duration="2248000" />
     </task>
     <servers />
   </component>
@@ -1033,7 +1029,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123952000" />
+    <option name="totallyTimeSpent" value="124219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="21" width="1366" height="747" extended-state="6" />
@@ -1403,24 +1399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/ValueHashPartitioner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1461,6 +1439,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="84" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -9,6 +9,8 @@
  * 所以这里只要value集合中1,2两个值同时出现，
  * 就说明该 Url 为两个文件共有的。
  *
+ * 注： 生成 Url 的测试方法为 test 包中的 CreateData 类的 create_find_equals_url_data() 方法。
+ *
  * Created by henvealf on 16-11-18.
  */
 package com.henvealf.learn.hadoop.mapreduce.findequalurl;
