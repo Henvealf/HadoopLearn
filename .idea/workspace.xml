@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b272ee99-43f0-4480-b4ec-520475079e0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/package-info.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java" afterPath="$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java" />
     </list>
     <ignored path="HadoopLearn.iws" />
@@ -100,8 +99,8 @@
       <file leaf-file-name="CreateData.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="84" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
+            <state relative-caret-position="420">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -992,7 +991,7 @@
       <workItem from="1479221185715" duration="33000" />
       <workItem from="1479258932377" duration="14309000" />
       <workItem from="1479453810296" duration="23906000" />
-      <workItem from="1479517296463" duration="2248000" />
+      <workItem from="1479517296463" duration="2394000" />
     </task>
     <servers />
   </component>
@@ -1029,7 +1028,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124219000" />
+    <option name="totallyTimeSpent" value="124365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="21" width="1366" height="747" extended-state="6" />
@@ -1455,8 +1454,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/CreateData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="84" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
+        <state relative-caret-position="420">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
