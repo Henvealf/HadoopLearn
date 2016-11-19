@@ -13,7 +13,7 @@ import java.io.IOException;
  *
  * Created by henvealf on 16-11-18.
  */
-public class FindEqualUrlMapper  extends Mapper<LongWritable, Text, IntWritable,  Text >{
+public class FindEqualUrlMapper  extends Mapper<LongWritable, Text,  Text, IntWritable >{
 
     String fileName = null;
 
@@ -28,11 +28,13 @@ public class FindEqualUrlMapper  extends Mapper<LongWritable, Text, IntWritable,
 
     @Override
     protected void map( LongWritable key, Text value , Context context) throws IOException, InterruptedException {
-        //context.get
+        //
         if(fileName.contains("url1")) {
-            context.write(new IntWritable(1), value);
+            System.out.println("value: " + value + "     \t1");
+            context.write(new Text(value.toString().trim()), new IntWritable(1));
         } else {
-            context.write(new IntWritable(2), value);
+            System.out.println("value: " + value + "     \t2");
+            context.write(new  Text(value.toString().trim()), new IntWritable(2));
         }
     }
 }

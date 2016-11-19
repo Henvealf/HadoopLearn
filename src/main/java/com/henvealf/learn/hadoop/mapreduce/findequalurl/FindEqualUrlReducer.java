@@ -12,28 +12,37 @@ import java.util.Set;
 /**
  * Created by henvealf on 16-11-18.
  */
-public class FindEqualUrlReducer extends Reducer<IntWritable, Text, Text, NullWritable> {
+public class FindEqualUrlReducer extends Reducer<Text, IntWritable, Text, NullWritable> {
 
-    Set<String> url1Set = null;
+    //Set<String> url1Set = null;
+    //Set<String> url2Set = null;
 
     @Override
     protected void setup(Context context) throws IOException, InterruptedException {
-        url1Set = new HashSet<>();
+        //url1Set = new HashSet<>();
+        //url2Set = new HashSet<>();
     }
 
     @Override
-    protected void reduce(IntWritable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
-        for(Text text : values) {
-            String urlStr = text.toString();
+    protected void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
 
-            if(key.get() == 1)
-                url1Set.add(urlStr);
-            else if (key.get() == 2)
-                for(String url1Str : url1Set)
-                    if(url1Str.equals(urlStr))
-                        context.write( new Text(url1Str), NullWritable.get());
-
+        boolean meetOne = false;
+        boolean meetTow = false;
+        for(IntWritable whichFile : values) {
+            System.out.println("key: " + key + "\t value: " + whichFile.toString());
+            if (whichFile.get() == 1) {
+                // url1Set.add(key.toString());
+                meetOne = true;
+            } else if (whichFile.get() == 2) {
+                //url2Set.add(key.toString());
+                meetTow = true;
+            }
+            if(meetOne && meetTow){
+                context.write(new Text(key), NullWritable.get());
+                break;
+            }
 
         }
     }
+
 }

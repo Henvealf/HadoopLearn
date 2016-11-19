@@ -40,19 +40,18 @@ public class FindEqualUrlJob extends Configured implements Tool{
         FileOutputFormat.setOutputPath(job, new Path(strings[2]));
 
         job.setMapperClass(FindEqualUrlMapper.class);
-        job.setPartitionerClass(ValueHashPartitioner.class);
+        // job.setPartitionerClass(ValueHashPartitioner.class);
         job.setReducerClass(FindEqualUrlReducer.class);
 
-        job.setMapOutputKeyClass(IntWritable.class);
-        job.setMapOutputValueClass(Text.class);
+        job.setMapOutputKeyClass(Text.class);
+        job.setMapOutputValueClass(IntWritable.class);
 
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(NullWritable.class);
-        job.setNumReduceTasks(5);
+        job.setNumReduceTasks(2);
 
         return job.waitForCompletion(true)? 0 : 1;
     }
-
 
     public static void main(String[] args) throws Exception {
         int exitCode = ToolRunner.run(new FindEqualUrlJob(), args);
