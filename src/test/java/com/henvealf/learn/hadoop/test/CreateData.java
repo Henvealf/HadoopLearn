@@ -19,7 +19,7 @@ public class CreateData {
         for (int j = 1; j <=2 ; j++) {
             FileWriter writer = new FileWriter("/usr/my-program/process-data/url"+ j +".dt");
             for(int i = 0; i < 300000; i ++) {
-                
+
                 String str = "www.henvealf.com/" + r.nextInt(1000000);
                 if(i < 299999)
                     str += "\n";
