@@ -18,7 +18,7 @@ public class GroupingComparator extends WritableComparator{
     public int compare(WritableComparable a, WritableComparable b) {
         IntPair intA = (IntPair) a;
         IntPair intB = (IntPair) b;
-        return intA.compareTo(intB);
+        return intA.getFirst() - intB.getFirst();
     }
 
 }

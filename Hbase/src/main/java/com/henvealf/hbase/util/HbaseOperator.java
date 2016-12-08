@@ -35,8 +35,8 @@ public class HbaseOperator {
 	
 	public HbaseOperator() {
 		conf = HBaseConfiguration.create();
-		conf.set("hbase.zookeeper.quorum","pseudo");  
-		conf.set("hbase.zookeeper.property.clientPort","2181");  
+		conf.set("hbase.zookeeper.quorum","localhost");
+		conf.set("hbase.zookeeper.property.clientPort","2182");
 		conf.set("zookeeper.znode.parent","/hbase");  
 		try {
             // 使用配置生成一个连接
@@ -72,16 +72,19 @@ public class HbaseOperator {
 		hbaseOperate.close();
 	}
 	
-	
 	//建表  
-    public void createTable(String tableName,String[] colFamiliesName){
+    public void createTable(String tableName,String... colFamiliesName){
 
         // 构造一个 表名
         TableName table = TableName.valueOf(tableName);
         try {
 			if(admin.tableExists(table)){
-			    System.out.println("table "+table+" is exists!");
-			}else {
+                System.err.println("table "+table+" is exists!");
+            }else {
+                if (colFamiliesName.length == 0) {
+                    System.err.println("缺少列族！！");
+                    return;
+                }
                 // 描述符，构造参数为表明，指明是哪个表的描述符
 			    HTableDescriptor hTableDescriptor = new HTableDescriptor(table);
 			    for(String familyName:colFamiliesName){
@@ -221,7 +224,7 @@ public class HbaseOperator {
 		}
     }
 
-    public Cell getNewerCells(String tableName,String rowkey,String colFamily,String col) throws IOException {
+    public Cell getNewerCell(String tableName,String rowkey,String colFamily,String col) throws IOException {
         Cell[] cells =  getAllCells(tableName, rowkey, colFamily, col);
         return cells == null ? null : cells[0];
     }

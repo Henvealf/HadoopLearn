@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b272ee99-43f0-4480-b4ec-520475079e0e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sitelog/site-log-job.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/ResultScannerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/examples/RegionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hbase/Hbase.iml" afterPath="$PROJECT_DIR$/Hbase/Hbase.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hive/src/main/java/com/henvealf/learn/hive/Strip.java" afterPath="$PROJECT_DIR$/Hive/src/main/java/com/henvealf/learn/hive/Strip.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/hbase/util/HbaseOperator.java" afterPath="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/hbase/util/HbaseOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sitelog/site-log-job.sh" afterPath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sitelog/site-log-job.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/GroupingComparator.java" afterPath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/GroupingComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/SortPartitioner.java" afterPath="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/SortPartitioner.java" />
     </list>
     <ignored path="HadoopLearn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,101 +40,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CleanLogJob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sitelog/CleanLogJob.java">
+      <file leaf-file-name="FindTopComputer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopComputer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1820">
-              <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+            <state relative-caret-position="20">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Strip.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hive/src/main/java/com/henvealf/learn/hive/Strip.java">
+      <file leaf-file-name="FindTopJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="58">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JoinJob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/JoinJob.java">
+      <file leaf-file-name="GroupingComparator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/GroupingComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2000">
-              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindEqualUrlJob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlJob.java">
+      <file leaf-file-name="IntPair.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/IntPair.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+            <state relative-caret-position="141">
+              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestJob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/TestJob.java">
+      <file leaf-file-name="SortJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/SortJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+            <state relative-caret-position="398">
+              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SiteLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sitelog/SiteLog.java">
+      <file leaf-file-name="SortPartitioner.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/SortPartitioner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+            <state relative-caret-position="320">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HbaseCopy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/hbase/util/HbaseCopy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HbaseOperator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/hbase/util/HbaseOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="110" column="11" selection-start-line="110" selection-start-column="11" selection-end-line="110" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="site-log-job.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sitelog/site-log-job.sh">
+      <file leaf-file-name="SortReducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/SortReducer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Table.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../he-framework/hbase-1.2.3/lib/hbase-client-1.2.3.jar!/org/apache/hadoop/hbase/client/Table.class">
+      <file leaf-file-name="SortMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/SortMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1340">
-              <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+            <state relative-caret-position="380">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigurationPrinter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/ConfigurationPrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindTopMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -156,13 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/RowKeyConverter.java" />
-        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/HBaseTemperatureImporter.java" />
-        <option value="$PROJECT_DIR$/Hbase/pom.xml" />
-        <option value="$PROJECT_DIR$/Hbase/src/test/java/com/henvealf/test/TestParser.java" />
-        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/temperature/HBaseTemperatureQuery.java" />
-        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/temperature/NcdcRecordParser.java" />
-        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/ExampleClient.java" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/temperature/HBaseTemperatureImporter.java" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/temperature/RowKeyConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/MaxTemperature.java" />
@@ -184,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopJob.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopComputer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/TestJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequlesurl/package-info.java" />
@@ -199,7 +196,6 @@
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/hbase/util/HbaseOperate.java" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/hbase/util/HbaseRegionInfo.java" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/hbase/util/HbaseCopy.java" />
-        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/hbase/util/HbaseOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/siteparse/package-info.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/SiteParseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/henvealf/learn/hadoop/test/SiteLogParseTest.java" />
@@ -207,6 +203,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sitelog/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sitelog/CleanLogJob.java" />
         <option value="$PROJECT_DIR$/Hive/src/main/java/com/henvealf/learn/hive/Strip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sitelog/site-log-job.sh" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/examples/ReginTest.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/examples/RegionTest.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/hbase/util/HbaseOperator.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/ResultScannerTest.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/UseCacheBatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/GroupingComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/SortPartitioner.java" />
       </list>
     </option>
   </component>
@@ -260,16 +265,133 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Production" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hbase">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hbase">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hbase">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hbase">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hbase">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hbase">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/henvealf">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="learn/hbase">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hbase">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hbase">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/henvealf">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="hbase/util">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HadoopLearn">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HadoopLearn">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="HadoopLearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -302,6 +424,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Hbase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.henvealf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn.hbase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HadoopLearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hbase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.henvealf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn.hbase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HadoopLearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hbase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.henvealf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbase.util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HadoopLearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="HadoopLearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
@@ -317,10 +497,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com.henvealf.learn.hadoop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,6 +515,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mapreduce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HadoopLearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HadoopLearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.henvealf.learn.hadoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapreduce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sort" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -382,7 +580,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="maxtemperature" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HadoopLearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HadoopLearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.henvealf.learn.hadoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapreduce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="findtop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HadoopLearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HadoopLearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.henvealf.learn.hadoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapreduce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="findequalurl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -447,6 +689,10 @@
               <option name="myItemId" value="io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serialization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -461,47 +707,40 @@
               <option name="myItemId" value="com.henvealf.learn.hadoop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Production" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Hbase">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Hbase">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filedatastruc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HadoopLearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="HadoopLearn">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HadoopLearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="HadoopLearn">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.henvealf.learn.hadoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compression" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scratches">
         <subPane />
       </pane>
     </panes>
@@ -535,27 +774,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CleanLogJob">
-    <configuration default="false" name="FindEqualUrlJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.henvealf.learn.hadoop.mapreduce.findequalurl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.henvealf.learn.hadoop.mapreduce.findequalurl.FindEqualUrlJob" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="hdfs://localhost:9000/user/henvealf/url-equal/url1.dt hdfs://localhost:9000/user/henvealf/url-equal/url2.dt hdfs://localhost:9000/user/henvealf/urlout1" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HadoopLearn" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SortJob">
     <configuration default="false" name="CleanLogJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -576,30 +795,64 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="CreateData.create_find_equals_url_data" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="RegionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.henvealf.learn.hadoop.test.*" />
+          <option name="PATTERN" value="com.henvealf.learn.hbase.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="HadoopLearn" />
+      <option name="MAIN_CLASS_NAME" value="com.henvealf.learn.hbase.examples.RegionTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.henvealf.learn.hadoop.test" />
-      <option name="MAIN_CLASS_NAME" value="com.henvealf.learn.hadoop.test.CreateData" />
-      <option name="METHOD_NAME" value="create_find_equals_url_data" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="Hbase" />
       <envs />
-      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ResultScannerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.henvealf.learn.hbase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.henvealf.learn.hbase.ResultScannerTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Hbase" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SortJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.henvealf.learn.hadoop.mapreduce.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.henvealf.learn.hadoop.mapreduce.sort.SortJob" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="hdfs://localhost:9000/user/henvealf/intPair.dt hdfs://localhost:9000/user/henvealf/intPairOut2" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HadoopLearn" />
+      <envs />
       <method />
     </configuration>
     <configuration default="false" name="SiteLogParseTest.test_cleanRegex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -615,32 +868,6 @@
       <option name="PACKAGE_NAME" value="com.henvealf.learn.hadoop.test" />
       <option name="MAIN_CLASS_NAME" value="com.henvealf.learn.hadoop.test.SiteLogParseTest" />
       <option name="METHOD_NAME" value="test_cleanRegex" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SiteLogParseTest.test_process_date" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.henvealf.learn.hadoop.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="HadoopLearn" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.henvealf.learn.hadoop.test" />
-      <option name="MAIN_CLASS_NAME" value="com.henvealf.learn.hadoop.test.SiteLogParseTest" />
-      <option name="METHOD_NAME" value="test_process_date" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1114,19 +1341,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FindEqualUrlJob" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CleanLogJob" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CreateData.create_find_equals_url_data" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SiteLogParseTest.test_cleanRegex" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SiteLogParseTest.test_process_date" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CleanLogJob" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RegionTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ResultScannerTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SortJob" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SiteLogParseTest.test_cleanRegex" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CleanLogJob" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SiteLogParseTest.test_cleanRegex" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SiteLogParseTest.test_process_date" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FindEqualUrlJob" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CreateData.create_find_equals_url_data" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SortJob" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ResultScannerTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RegionTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CleanLogJob" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SiteLogParseTest.test_cleanRegex" />
       </list>
     </recent_temporary>
   </component>
@@ -1185,7 +1412,10 @@
       <workItem from="1480122824111" duration="1896000" />
       <workItem from="1480209768936" duration="1513000" />
       <workItem from="1480493807381" duration="867000" />
-      <workItem from="1480501986069" duration="307000" />
+      <workItem from="1480501986069" duration="1641000" />
+      <workItem from="1480861840837" duration="1671000" />
+      <workItem from="1481006051175" duration="8186000" />
+      <workItem from="1481171828465" duration="4558000" />
     </task>
     <servers />
   </component>
@@ -1222,7 +1452,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166660000" />
+    <option name="totallyTimeSpent" value="182409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="21" width="1366" height="747" extended-state="6" />
@@ -1230,28 +1460,28 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13461539" sideWeight="0.45021963" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3868066" sideWeight="0.54978037" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34569734" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26183432" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22693998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19765739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15300146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17359051" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17359051" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13649851" sideWeight="0.45021963" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1270,7 +1500,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1279,147 +1509,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/ConfigurationPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hbase-1.2.3/lib/hadoop-mapreduce-client-core-2.5.1.jar!/org/apache/hadoop/mapred/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hbase-1.2.3/lib/hadoop-mapreduce-client-core-2.5.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hbase-1.2.3/lib/hadoop-mapreduce-client-core-2.5.1.jar!/org/apache/hadoop/mapreduce/InputSplit.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/common/hadoop-common-2.5.2.jar!/org/apache/hadoop/conf/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="394" column="16" selection-start-line="394" selection-start-column="16" selection-end-line="394" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hbase-1.2.3/lib/hadoop-mapreduce-client-core-2.5.1.jar!/org/apache/hadoop/mapreduce/lib/input/FileInputFormat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="87" column="43" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.5.2.jar!/org/apache/hadoop/mapreduce/lib/input/FileInputFormat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.5.2.jar!/org/apache/hadoop/mapreduce/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.5.2.jar!/org/apache/hadoop/mapreduce/TaskInputOutputContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.5.2.jar!/org/apache/hadoop/mapreduce/MapContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.5.2.jar!/org/apache/hadoop/mapreduce/InputSplit.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.5.2.jar!/org/apache/hadoop/mapred/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.5.2-tests.jar!/org/apache/hadoop/fs/IOMapperBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.5.2.jar!/org/apache/hadoop/mapreduce/TaskAttemptContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.5.2.jar!/org/apache/hadoop/mapreduce/JobContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hbase-1.2.3/lib/hadoop-mapreduce-client-core-2.5.1.jar!/org/apache/hadoop/mapreduce/lib/input/FileSplit.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/common/hadoop-common-2.5.2.jar!/org/apache/hadoop/io/BinaryComparable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/common/hadoop-common-2.5.2.jar!/org/apache/hadoop/io/Text.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2320">
-          <caret line="160" column="16" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/ValueHashPartitioner.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hadoop-2.5.2/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.5.2.jar!/org/apache/hadoop/mapred/LocalJobRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="485" column="9" selection-start-line="485" selection-start-column="9" selection-end-line="485" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findequalurl/FindEqualUrlMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -1434,27 +1523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/ExampleClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/SimpleRowCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="50" column="65" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/ScanTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hbase/src/test/java/com/henvealf/test/TestParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1466,20 +1534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/my/LoadingIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/my/ParseData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1553,7 +1607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1820">
           <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1561,7 +1614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2000">
           <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1569,15 +1621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/TestJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1585,7 +1628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
           <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1593,7 +1635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1340">
           <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1601,30 +1642,246 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/hbase/util/HbaseCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/hbase/util/HbaseOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="110" column="11" selection-start-line="110" selection-start-column="11" selection-end-line="110" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sitelog/site-log-job.sh">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="54" column="93" selection-start-line="54" selection-start-column="93" selection-end-line="54" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hbase-1.2.3/lib/hbase-common-1.2.3.jar!/org/apache/hadoop/hbase/Cell.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hbase-1.2.3/lib/hbase-common-1.2.3.jar!/org/apache/hadoop/hbase/CellUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hbase-1.2.3/lib/hbase-client-1.2.3.jar!/org/apache/hadoop/hbase/client/Result.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/my/LoadingIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/ExampleClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/ScanTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/SimpleRowCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="50" column="65" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/hbase/util/HbaseOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/examples/RegionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../he-framework/hbase-1.2.3/lib/hbase-client-1.2.3.jar!/org/apache/hadoop/hbase/client/ResultScanner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/ResultScannerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/UseCacheBatch.java" />
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/hbase/util/HbaseCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/henvealf/learn/hbase/my/ParseData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/io/compression/FileDecompressor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/TestJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/conffile/ConfFileJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/conffile/ConfFileMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/findtop/FindTopJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/ConfigurationPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/IntPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/SortReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/SortJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/SortMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/GroupingComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/henvealf/learn/hadoop/mapreduce/sort/SortPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding />
         </state>
       </provider>

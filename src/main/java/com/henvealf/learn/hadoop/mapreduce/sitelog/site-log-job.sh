@@ -22,6 +22,7 @@ echo "---开始执行 MapReduce"
 $HADOOP_HOME/bin/hadoop jar /usr/my-program/my-hadoop-jars/hadoop.jar com.henvealf.learn.hadoop.mapreduce.sitelog.CleanLogJob hdfs://localhost:9000/user/henvealf/site-log/access_${yesterday}.log hdfs://localhost:9000/user/henvealf/site-log-clean/${yesterday}/
 
 # 创建表
+
 echo "---创建 hive 的 log_items 表"
 hive -e "use vaf;Create Table If Not Exists log_items (ip String,acc_date String,method String,url String,protocal String,status int,flow_rate Int) Partitioned by (acc_day String);"
 
@@ -51,7 +52,7 @@ hive -e "use vaf;create table if not exists grather_t as select pv_t.acc_day as 
 
 # 导入到 mysql 中
 echo "---to mysql"
-sqoop export --connect jdbc:mysql://localhost:3306/site_log --username root --password heneSQL! --table garther --export-dir /user/henvealf/hive/warehouse/vaf.db/grather_t/000000_0 --input-fields-terminated-by '\001'
+sqoop export --connect jdbc:mysql://localhost:3306/site_log --username root --password heqwe3QL! --table garther --export-dir /user/henvealf/hive/warehouse/vaf.db/grather_t/000000_0 --input-fields-terminated-by '\001'
 
 echo "---drop all hive template table"
 hive -e "use vaf;drop table pv_t;"

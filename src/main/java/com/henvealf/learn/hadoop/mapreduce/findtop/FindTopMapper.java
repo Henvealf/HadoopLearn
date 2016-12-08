@@ -13,8 +13,10 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ *
  * Created by henvealf on 16-11-16.
  */
+
 public class FindTopMapper extends Mapper<LongWritable, Text, IntWritable, NullWritable> {
 
     enum Count {ERROR_RECORD, SUCCESS_RECORD};

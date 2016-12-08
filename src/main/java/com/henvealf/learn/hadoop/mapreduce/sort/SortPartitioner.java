@@ -9,10 +9,12 @@ import org.apache.hadoop.mapreduce.Partitioner;
 public class SortPartitioner extends Partitioner<IntPair, IntWritable> {
     @Override
     public int getPartition(IntPair intPair, IntWritable intWritable, int i) {
-        if(intPair.getFirst() > 220) {
+
+        if(intPair.getFirst() > 100) {
             return 1;
         } else {
             return 0;
         }
+        
     }
 }
